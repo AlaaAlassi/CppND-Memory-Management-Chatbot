@@ -245,5 +245,7 @@ void ChatLogic::SendMessageToUser(std::string message)
 
 wxBitmap *ChatLogic::GetImageFromChatbot()
 {
+    std::cout <<"GetImageFromChatbot" << std::endl;
+    std::cout << _chatBot << std::endl;
     return _chatBot->GetImageHandle();
 }
